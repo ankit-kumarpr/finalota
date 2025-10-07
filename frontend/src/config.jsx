@@ -1,3 +1,3 @@
-const BASE_URL = "http://localhost:6500/api"; 
+const BASE_URL = "https://finalota.onrender.com/api"; 
 
 export default BASE_URL;
