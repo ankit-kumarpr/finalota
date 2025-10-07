@@ -9,7 +9,7 @@ const hotelRoutes = require('./routes/hotelRoutes');
 connectToDb(); 
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000', 'http://localhost:6500'],
+  origin: ['http://localhost:5173', 'http://localhost:3000', 'http://localhost:6500','https://finalota.vercel.app'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   allowedHeaders: ['Content-Type', 'Authorization']
